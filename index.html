@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Meraki</title>
+    <link rel="stylesheet" href="/css/style.css"/>
+</head>
+<body>
+    <header>
+        <img class="left-logo-isat" src="/img/logo-1024x417.jpg" alt="Logo ISAT">
+        <h1>Demo Integración Meraki</h1>
+        <img class="right-logo-cisco" src="/img/cisco-gold.png" alt="Logo Cisco Partner Gold">
+    </header>
+    <main>
+        <section class="report-general">
+            <h2>Reporte general</h2>
+            <div class="report-form">
+                <p>Seleccione el rango de tiempo</p>
+                <p>
+                    <label for="dStart">
+                        Fecha inicio: <input type="date" id="dStart"/>
+                    </label>
+                </p>
+                <p>
+                    <label for="dEnd">
+                        Fecha final: <input type="date" id="dEnd"/>
+                    </label>
+                </p>
+                <p>
+                    <label for="mac-addr">
+                        MAC del dispositivo <input type="text" id="mac-addr"/>
+                    </label>
+                </p>
+            </div>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>MAC Address</th>
+                    <th>Time Seen</th>
+                    <th>Max Stay</th>
+                    <th>Min Stay</th>
+                    <th>Average Stay</th>
+                </tr>
+                <tr>
+                    <td>Cambiar nombe</td>
+                    <td>00:95:69:82:91:66</td>
+                    <td>101</td>
+                    <td>0.0</td>
+                    <td>999999.0</td>
+                    <td>-467.1934656435713</td>
+                </tr>
+                <tr class="alt">
+                    <td>Cambiar nombe</td>
+                    <td>74:e5:0b:45:c1:10</td>
+                    <td>101</td>
+                    <td>0.0</td>
+                    <td>999999.0</td>
+                    <td>-4023.1798895081947</td>
+                </tr>
+            </table>
+        </section>
+        <section class="report-intradia">
+            <h2>Reporte Intradía</h2>
+            <div class="report-form">
+                <p>
+                    <label for="dStart">
+                        Seleccione la fecha <input type="date" id="fecha"/>
+                    </label>
+                </p>
+            </div>
+            <table>
+                <tr>
+                    <th>Hora | AP</th>
+                    <th>AP1</th>
+                    <th>AP2</th>
+                    <th>AP3</th>
+                    <th>AP4</th>
+                </tr>
+                <tr class="alt">
+                    <td class="p-column">11:00-12:00</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td class="p-column">12:00-13:00</td>
+                    <td>12</td>
+                    <td>13</td>
+                    <td>10</td>
+                    <td>11</td>
+                </tr>
+                <tr class="alt">
+                    <td class="p-column">13:00-14:00</td>
+                    <td>6</td>
+                    <td>11</td>
+                    <td>12</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td class="p-column">14:00-15:00</td>
+                    <td>8</td>
+                    <td>12</td>
+                    <td>7</td>
+                    <td>6</td>
+                </tr>
+                <tr class="alt">
+                    <td class="p-column">15:00-16:00</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>12</td>
+                    <td>6</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <ul>
+                <li><a href=""><img src="/img/telephone.png"> 55 5814 9301</a></li>
+                <li><a href=""><img src="/img/mail-icon.png"> info@isat.com.mx</a></li>
+                <li><a href=""><img src="/img/clock-timer.png"> Lun - Vie: 09:00 - 18:30</a></li>
+            </ul>
+        </div>
+        <div class="redes"></div>
+        <div class="aviso-privacidad">Copyright © 2020 ISAT Telecomunicaciones  – Aviso de Privacidad</div>
+    </footer>
+</body>
+</html>
