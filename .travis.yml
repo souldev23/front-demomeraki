@@ -11,7 +11,7 @@ deploy:
   provider: pages
   skip-cleanup: true
   keep-history: true
-  github-token: c469e21ea9a0873c2579eb7cf529cc90a2c9eda5
+  github-token: 
   local-dir: dist/
   target-branch: gh-pages
   commit_message: "Deploy del proyecto desde Travis"
